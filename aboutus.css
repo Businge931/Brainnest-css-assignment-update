@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-padding {
+    padding: 0 90px;
+}
+
+.section-padding {
+    padding: 30px 200px;
+}
+
+header {
+    width: 100%;
+    height: 13vh;
+    background: #1f2937;
+    padding: 20px 0;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.logo-container p {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-links a {
+    text-decoration: none;
+    padding: 0 35px;
+    font-size: 16px;
+    color: #e5e7eb;
+    text-transform: capitalize;
+}
+
+.header-links a:hover {
+    color: #3882f6;
+}
+
+.about-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #1f2937;
+  font-size: 36px;
+  padding-top: 20px;
+}
+
+.work-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.work-details {
+  padding: 0 3%;
+}
+
+.work-title {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-size: 700;
+  margin-bottom: 15px;
+}
+
+.work-text {
+  font-size: 16px;
+  line-height: 175%;
+}
+
+.work-text:not(:last-child) {
+  margin-bottom: 10px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90vw;
+    height: max-content;
+    padding: 20px;
+    margin: 20px auto;
+    background: #3881f652;
+}
+.form-content{
+    width: 45%;
+}
+.form-content h3{
+    color: #555555;
+    text-transform: uppercase; 
+    padding: 15px 0;  
+}
+.form-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #555555;
+
+}
+form{
+width: 35%;
+}
+form div{
+    margin: 20px 0;
+    border-bottom: 2px solid #1f293763;
+}
+input{
+    height: 38px;
+    width: 100%;
+    border: none;
+    background: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+input:focus,textarea:focus{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    outline: none;
+    font-size: 18px;
+}
+textarea{
+    width: 100%;
+    height: 60px;
+    border: none;
+    padding: 10px;
+}
+#textarea{
+    border: none;
+}
+
+button{
+    padding: 15px 30px;
+    border: none;
+    color: #f9faf8;
+    background: #3882f6;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background: #1f2937;
+    color: #f9faf8;
+    padding: 40px;
+    margin-top: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
